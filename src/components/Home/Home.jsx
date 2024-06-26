@@ -11,10 +11,7 @@ import Navbar from "../Layout/Navbar";
 const Home = () => {
   
   
-  const { isAuthorized } = useContext(Context);
-  if (!isAuthorized) {
-    return <Navigate to={"/login"} />;
-  }
+ 
     
  
  
